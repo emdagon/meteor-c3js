@@ -1,6 +1,6 @@
 Package.describe({
   name: 'emdagon:c3js',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'C3.js Charts for Meteor',
   // URL to the Git repository containing the source code for this package.
@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('d3js:d3@3.4.13', 'client');
+  api.use('d3js:d3@3.5.16', 'client');
 
   api.add_files('c3/c3.js', 'client');
   api.add_files('c3/c3.css', 'client');
