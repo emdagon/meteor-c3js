@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  api.use('d3js:d3@3.5.16', 'client');
+  api.use('d3js:d3@3.5.8', 'client');
 
   api.add_files('c3/c3.js', 'client');
   api.add_files('c3/c3.css', 'client');
